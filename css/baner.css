@@ -1,0 +1,266 @@
+.baner_img{
+    text-align: center;
+    background: url(../img/baner4.jpg) no-repeat top right ;
+    padding: 50px 0px;
+}
+.banner_img img{
+    width: 500px;
+vertical-align: middle;
+}
+.baner_img a{
+    display: inline-block;
+    padding:40px 30px;
+}
+
+/*about*/
+
+.about{
+    text-align: center;
+}
+.about h2{
+    margin: 0 0 0 20px;
+    font-size: 24px;
+    color: #303030;
+    font-weight: normal;
+    padding-bottom: 50px;
+    font-family: 'Roboto-Regular';
+} 
+
+.about p{
+   font-size: 17px;   
+text-align: center;
+line-height: 30px;
+color: #303030;
+font-family: 'Roboto-Regular';
+} 
+ 
+/*job baner*/
+.job_baner{
+    background: url(../img/about.baner.jpg) no-repeat;
+    width: 978px;
+    height: 250px;
+    margin: 97px 241px;
+    border: 2px solid black;
+}
+.job_baner h2{
+    font-size: 40px;
+line-height: 50px;
+position: relative;
+font-weight: bold;
+color: #fff;
+font-family: 'Roboto-Regular';
+text-shadow: 2px 2px 4px #303030;
+text-align: center;
+margin-top: 40px;
+
+}
+.job_baner #underline{
+    content: "";
+position: absolute;
+width: 425px;
+height: 2px;
+bottom: 0;
+background: #fff;
+left: 50%;
+margin-left: -213px;
+}
+.job_baner label{
+    font-size: 24px;
+line-height: 50px;
+display: block;
+padding: 0 0 20px 0;
+font-family: 'Roboto-Regular';
+text-shadow: 2px 2px 4px #303030;
+color: #fff;
+text-align: center;
+}
+ 
+.job_baner span{
+    font-size: 24px;
+    line-height: 40px;
+    background: rgba(48,48,48,0.9);
+    padding: 0px 45px;
+    color: #fff;
+    font-family: 'Roboto-Regular';
+    vertical-align: middle;
+}  
+.job_baner .button{
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;  
+    transition-property: color;
+    transition-duration: 0.3s;
+    background: rgba(48,48,48,0.5);
+    margin-left: 280px;
+    
+}
+
+/*News*/
+.news h2{
+ margin-left: 204px; 
+ margin-top: 75px;  
+ font-size: 25px;
+ margin-bottom: 44px;
+}
+
+.slice {    
+       width: 100%;
+       height: 210px;
+       background:white;
+       margin: 10px 25px;
+       
+    }
+.grid_04 div{
+    border: 1px solid black;
+    float:left ;
+    margin:0 30px;
+}
+
+/*services*/
+.service {
+    background: url(../img/flower.jpg)  no-repeat ;
+  height:399px;
+  padding-bottom: 40px;
+
+}
+.service_outer h2{
+    font-size: 25px;
+    margin-bottom: 60px;
+    
+}
+.service p{
+    padding-top: 30px;
+    font-size: 17px;
+    text-align: center;
+}
+.service ul{
+    width: 980px;
+    margin: 0 auto;
+    padding: 125px 0 100px 0;
+}
+.service ul li:nth-child(odd){
+    width: 580px;
+}
+.service ul li:nth-child(even){
+    width: 400px;
+}
+
+.service label{
+    font-size: 22px;
+color: #303030;
+font-family: 'Roboto-Regular';
+padding: 23px 0;
+display: inline-block;
+width: auto;
+margin: 0 0 0 0;
+vertical-align: middle;
+}
+.service ul li p{
+    margin: 15px 0 0 0;
+    font-size: 16px;
+    font-family: 'Roboto-Regular', Zawgyi-One;
+    line-height: 25px;
+    text-indent: -10px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.service li div{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 45px;
+}
+
+.contact{
+    background: url(../img/contact.jpg) no-repeat;
+    width: 100%;
+    height: 500px;
+    padding-top: 70px;
+}
+
+.contact h3{
+    font-size: 26px;
+    position: relative;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'Roboto-Regular';
+    text-shadow: 2px 2px 4px #303030;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.contact p{
+    font-size: 20px;
+    position: relative;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+.container{
+    margin:  0 191px 0 105px;
+    border: 1px solid white;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    padding-left: 140px;
+    padding-right: 140px;
+   
+}
+ .p_contact{
+    font-size: 24px;
+    color:black;
+    text-align: center;
+    margin-top: 100px;
+}
+.link{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+ .link .button{
+
+    padding: 10px 20px;
+    font-family: 'Roboto-Thin';
+    font-size: 20px;
+    color: #303030;
+    border: 1px solid #909090;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: white;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.footer{
+    background-color: #333;
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.foot_menu ul li{
+    float: left;
+   
+margin: 0 auto;
+}
+.foot_menu ul li a{
+    color: #909090;
+    font-size: 13px;
+    line-height: 12px;
+    border-right: 1px solid #909090;
+    padding: 0 9px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
